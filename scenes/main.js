@@ -77,16 +77,8 @@ export default class MainScene extends Scene {
   }
 
   loop() {
-    if (this.endGame) {
-      this.gameOverSplash()
-      return;
-    }
-
-    if (this.lifes <= 0) {
-      this.gameover();
-      return;
-    }
-
+    if (this.endGame) return this.gameOverSplash();
+    if (this.lifes <= 0) return this.gameover();
     this.enemiesSpawner()
     this.renderUi()
   }
