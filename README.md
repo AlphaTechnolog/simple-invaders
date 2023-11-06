@@ -3,8 +3,10 @@
 Simple invaders is a little sample game made with bare javascript and
 using the canvas api to display content in the web page.
 
-Implements a simple game communication flow, which could be described with
-the next scheme:
+![demonstration](./assets/simple-invaders-demonstration.gif)
+
+Internally, the "framework" which i've implemented, uses the next scheme
+as reference for communication of each elements:
 
 ![core-flow](./assets/core-flow.png)
 
