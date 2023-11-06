@@ -1,7 +1,13 @@
 import Player from './player.js'
-import Entity from './entity.js'
-import { Vector2, Render, centered, random } from '../framework/index.js'
 import MainScene from '../scenes/main.js'
+
+import {
+  Entity,
+  Vector2,
+  Render,
+  centered,
+  random
+} from '../framework/index.js'
 
 export default class Enemy extends Entity {
   constructor(...args) {

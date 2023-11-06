@@ -1,4 +1,4 @@
-export default class Scene {
+export class Scene {
   constructor(ctx) {
     this.ctx = ctx;
     this.entities = [];

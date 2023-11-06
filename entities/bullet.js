@@ -1,6 +1,10 @@
-import Entity from './entity.js'
 import Enemy from './enemy.js'
-import { Render, Vector2 } from '../framework/index.js'
+
+import {
+  Entity,
+  Render, 
+  Vector2
+} from '../framework/index.js'
 
 export default class Bullet extends Entity {
   constructor(ctx) {

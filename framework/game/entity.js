@@ -1,4 +1,4 @@
-export default class Entity {
+export class Entity {
   constructor(ctx) {
     this.ctx = ctx;
     this.configured = false;

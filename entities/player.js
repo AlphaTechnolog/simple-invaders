@@ -1,6 +1,12 @@
-import Entity from './entity.js';
 import Bullet from './bullet.js';
-import { Render, Vector2, centered, keymaps } from '../framework/index.js';
+
+import {
+  Entity,
+  Render,
+  Vector2,
+  centered,
+  keymaps
+} from '../framework/index.js';
 
 export default class Player extends Entity {
   constructor(...args) {

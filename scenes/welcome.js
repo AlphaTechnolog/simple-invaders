@@ -1,6 +1,11 @@
-import Scene from './scene.js'
 import MainScene from './main.js'
-import { Vector2, centered, keymaps } from '../framework/index.js'
+
+import {
+  Scene,
+  Vector2,
+  centered,
+  keymaps
+} from '../framework/index.js'
 
 export default class WelcomeScene extends Scene {
   constructor(...args) {
